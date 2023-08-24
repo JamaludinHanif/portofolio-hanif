@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+    border: 1px solid black;
+} */
+body {
+    font-family: 'inter', sans-serif;
+}
+
+.hamburger {
+    @apply w-[20px] h-[1px] my-2 block bg-dark;
+}
